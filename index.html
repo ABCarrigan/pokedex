@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="bodyContainer">
+        <form>
+            <input id="userPokeNum" type="text" value="1">
+            <input type="button" value="Search by Pokedex Number" id="pokeSubmit">
+        </form>
+        <div id="pokeHeader">
+            <p id="pokeNum">No. 1<sub>/898</sub></p> <p id="pokeName">bulbasaur</p>
+            <div id="pokeMiscInfo">
+                <p id="pokeWeight">Weight: 69</p>
+                <p id="pokeHeight">Height: 7</p>
+            </div>    
+        </div>
+        <div id="pokeImages">
+            <img id="pokeSpriteFront" class="pokeSprites" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png">
+            <img id="pokeSpriteShiny" class="pokeSprites" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/1.png">
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
