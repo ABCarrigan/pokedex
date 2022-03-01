@@ -6,7 +6,7 @@ body{
 #bodyContainer{
     background-color:rgb(116, 144, 236);
     width:100%;
-    height:400px;
+    height:450px;
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows:0.02fr 1fr;

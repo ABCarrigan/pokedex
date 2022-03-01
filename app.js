@@ -15,6 +15,8 @@ function pokeUserSubmission() {
         pokeNum.innerHTML = 'No. '+ data.id+'<sub>/898</sub>';
         pokeWeight.innerHTML = 'Weight: '+data.weight;
         pokeHeight.innerHTML = 'Height: '+data.height;
+        pokeAbility.innerHTML = 'Ability: '+data.abilities[0].ability.name;
+        pokeHiddenAbility.innerHTML = 'Hidden Ability: '+data.abilities[1].ability.name;
         pokeSpriteFront.src = data.sprites.other.home.front_default;
         pokeSpriteShiny.src = data.sprites.other.home.front_shiny;
     })
@@ -22,6 +24,8 @@ function pokeUserSubmission() {
     var pokeNum = document.getElementById('pokeNum');
     var pokeWeight = document.getElementById('pokeWeight');
     var pokeHeight = document.getElementById('pokeHeight');
+    var pokeAbility = document.getElementById('pokeAbility');
+    var pokeHiddenAbility = document.getElementById('pokeHiddenAbility');
     var pokeSpriteFront = document.getElementById('pokeSpriteFront');
     var pokeSpriteShiny = document.getElementById('pokeSpriteShiny');
 }
